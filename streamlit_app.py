@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load your model
-model = joblib.load('model.joblib')
+model = joblib.load('model_svc.joblib')
 
 st.title("ML Model Prediction App")
 
